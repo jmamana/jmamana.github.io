@@ -6,14 +6,6 @@ html, body {
   line-height: 1.5;
 }
 
-body {
-  font-family: font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-  color: black;
-  background-position: center top;
-  background-image: url("...");
-  margin: 0;
-  }
-  
 .page-description {
 	font-style: italic;
 	  border: 1px solid #000;
