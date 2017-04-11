@@ -1,13 +1,64 @@
+element.style {
+}
+@media (max-width: 800px)
+style.css:1237
 html, body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  font-weight: 300;
-  line-height: 1.5;
+    overflow: hidden;
+}
+style.css:27
+body {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background: url(../img/loading.gif) #000000;
+    background-size: 32px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    font-family: 'dpgothic', 'Arial Black', Arial, sans-serif;
+    z-index: 0;
+}
+style.css:20
+html, body {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+reset.css:31
+body {
+    line-height: 1;
+}
+reset.css:18
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+style.css:16
+* {
+    -webkit-font-smoothing: antialiased;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+Inherited from html.nivo-lightbox-notouch
+reset.css:18
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-.page-description {
-	font-style: italic;
-	  border: 1px solid #000;
-  padding: 30px;
-	}
+style.css:16
+* {
+    -webkit-font-smoothing: antialiased;
+}
