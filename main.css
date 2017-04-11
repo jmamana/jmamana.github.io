@@ -1,18 +1,16 @@
-.screen{
-   background-image: url('img/window.png');
-   width: 950px;
-   height:390px;
-   margin:auto;
-}
-
-.videoprom{
-   padding-top:91px;
-   padding-left:5px;
-}
-
-.videoprom span{
-    display:block;
-    width:940px;
-    height:390px;
-    background-color:red;
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
 }
