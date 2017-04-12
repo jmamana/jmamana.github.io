@@ -12,10 +12,11 @@ video {
 html,
 body {
   height: 100%;
+  zoom: 90%
 }
 
 body {
-  font-family: "Oxygen", sans-serif;
+  font-family: "cormorant garamond", sans-serif;
 }
 .content {
   position: relative;
@@ -23,7 +24,22 @@ body {
   z-index: 2;
   margin: 0 auto;
   max-width: 720px;
-  text-align: center;
+  top: 8px;
+  right: 190px;
+  font-size: 16px;
+  font-color: white;
+}
+
+.content2 {
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  top: 8px;
+  left: 910px;  
+  font-size: 16px;
+  font-color: white;
 }
 
 .content__heading {
@@ -58,3 +74,8 @@ body {
   height: auto;
   transform: translate(-50%, -50%);
 }
+
+
+  left: 0;
+}
+
