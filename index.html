@@ -4,16 +4,6 @@
    <title>j. mamana</title>
     <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="main.css">
-	<script language="JavaScript">
-		var audio = document.getElementById('background_audio');
-
-document.getElementById('mute').addEventListener('click', function (e)
-{
-    e = e || window.event;
-    audio.muted = !audio.muted;
-    e.preventDefault();
-}, false);
-	</script>
 </head>
    
 <body style="background-color:black;">
@@ -30,10 +20,11 @@ document.getElementById('mute').addEventListener('click', function (e)
 <a href="#noscroll" id="mute">sound</a>
 </div>
   
-  <audio id="background_audio" autoplay="autoplay" mute="">
+  <audio id="background_audio" autoplay="autoplay">
   <source src="young.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+	<script src="main.js"></script>
 </body>
 </html>
 
