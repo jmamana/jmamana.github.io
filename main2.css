@@ -1,17 +1,18 @@
 html,
 body,
 div,
+image,
 h1,
 p,
 a {
-  margin: 10;
-  padding: 10;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body {
   height: 100%;
-  zoom: 90%
+  zoom: 100%
 }
 
 body {
@@ -85,4 +86,9 @@ body {
 
 
   left: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
