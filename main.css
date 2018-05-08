@@ -136,7 +136,7 @@ img {
 }
 
 body {
-   transform: scale(0.8);
+   transform: scale(1);
    transform-origin: 0 0;
    // add prefixed versions too.
 }
