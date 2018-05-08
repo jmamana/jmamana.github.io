@@ -4,7 +4,8 @@ div,
 image,
 h1,
 p,
-a {
+a,
+video {
   margin: 0;
   padding: 0;
 }
