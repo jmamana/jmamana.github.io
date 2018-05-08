@@ -13,6 +13,7 @@ video {
 html,
 body {
   height: 100%;
+  zoom: 100%;
 }
 
 body {
