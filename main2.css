@@ -16,7 +16,13 @@ body {
 }
 
 body {
-  font-family: "cormorant garamond", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	text-align: ;
+	text-shadow: ;
+	
 }
 .content {
   position: relative;
@@ -27,6 +33,7 @@ body {
   top: 8px;
   right: 190px;
   font-size: 16px;
+  text-align: justify;
 }
 
 .content2 {
@@ -91,4 +98,34 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: ;
+    overflow: hidden;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: ;
+    text-align: ;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color:;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: ;
+    color: black;
 }
