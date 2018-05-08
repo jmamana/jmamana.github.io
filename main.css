@@ -13,7 +13,6 @@ video {
 html,
 body {
   height: 100%;
-  zoom: 80%
 }
 
 body {
@@ -129,4 +128,9 @@ img {
 .topnav a.active {
     background-color: ;
     color: black;
+}
+
+.zoom
+{
+    zoom: 80%;
 }
