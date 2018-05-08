@@ -134,3 +134,9 @@ img {
 {
     zoom: 80%;
 }
+
+body {
+   transform: scale(0.8);
+   transform-origin: 0 0;
+   // add prefixed versions too.
+}
